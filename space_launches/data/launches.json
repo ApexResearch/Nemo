@@ -1,0 +1,2538 @@
+{
+  "metadata": {
+    "title": "Global Space Launch Statistics",
+    "description": "Orbital launch attempts by country, 2023-2026",
+    "last_updated": "2026-04-17",
+    "current_year": 2026,
+    "actual_months_2026": 4,
+    "sources": [
+      "Wikipedia (citing primary sources: NASA, ESA, Roscosmos, CASC, JAXA, etc.)",
+      "NASA News RSS",
+      "ESA Newsroom RSS",
+      "SpaceX Manifests"
+    ],
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "supplementary_sources": {
+      "nasa_news": {
+        "url": "https://www.nasa.gov/news-releases/feed/",
+        "type": "rss",
+        "count": 0,
+        "items": []
+      },
+      "esa_space_transport": {
+        "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Transportation",
+        "type": "rss",
+        "count": 15,
+        "items": [
+          {
+            "title": "Everything rockets",
+            "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Everything_rockets",
+            "pubdate": "Mon, 29 Jan 2024 12:56:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/05/artist_s_view_of_europe_s_launcher_family_from_2024_onwards/26695177-2-eng-GB/Artist_s_view_of_Europe_s_launcher_family_from_2024_onwards_card_full.jpg\" alt=\"Artist's view of Europe's launcher family from 2024 onwards"
+          },
+          {
+            "title": "How to follow the Smile launch live",
+            "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/How_to_follow_the_Smile_launch_live",
+            "pubdate": "Thu, 02 Apr 2026 17:00:00 +0200",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_lifts_off_into_space_artist_impression/27126092-1-eng-GB/Smile_lifts_off_into_space_artist_impression_card_full.png\" alt=\"Smile lifts off into space (artist impression)\">\n\t<p><i><b>***Update 6 April 2026: launch"
+          },
+          {
+            "title": "Smile: A global answer to a global mystery",
+            "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/04/Smile_A_global_answer_to_a_global_mystery",
+            "pubdate": "Thu, 02 Apr 2026 15:00:00 +0200",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/04/smile_a_global_answer_to_a_global_mystery/27187195-1-eng-GB/Smile_A_global_answer_to_a_global_mystery_card_full.png\" alt=\"\">\n\tVideo: \n\t\t\t00:01:33\n\t\t\t\t<p>The European Space Agency and the Chinese Academy of Sciences ar"
+          },
+          {
+            "title": "Rocketroll: nuclear-electric spacecraft study",
+            "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Rocketroll_nuclear-electric_spacecraft_study",
+            "pubdate": "Tue, 31 Mar 2026 13:37:00 +0200",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/artist_impression_of_nuclear-powered_spacecraft_near_mars/27180692-2-eng-GB/Artist_impression_of_nuclear-powered_spacecraft_near_Mars_card_full.png\" alt=\"Artist impression of nuclear-powered spacecraft near Mars\">"
+          },
+          {
+            "title": "Spectrum’s qualifying second launch",
+            "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Spectrum_s_qualifying_second_launch",
+            "pubdate": "Mon, 23 Mar 2026 12:33:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/spectrum_on_the_launch_pad_under_northern_lights/27166818-2-eng-GB/Spectrum_on_the_launch_pad_under_Northern_Lights_card_full.jpg\" alt=\"Spectrum on the launch pad under Northern Lights\">"
+          },
+          {
+            "title": "T-20 days: Smile to launch on 9 April",
+            "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/T-20_days_Smile_to_launch_on_9_April",
+            "pubdate": "Fri, 20 Mar 2026 11:00:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_delivered_to_space_artist_impression_gif/27126681-1-eng-GB/Smile_delivered_to_space_artist_impression_GIF_card_full.gif\" alt=\"Smile delivered to space (artist impression, GIF)\">\n\t<p>The <a href=\"https://www.esa."
+          },
+          {
+            "title": "A look back at 2025 for Europe’s Spaceport",
+            "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Europe_s_Spaceport/A_look_back_at_2025_for_Europe_s_Spaceport",
+            "pubdate": "Fri, 13 Mar 2026 15:57:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/07/europe_s_spaceport_in_french_guiana_with_vega-c_and_ariane_6_launch_facilities_in_the_background/26792157-2-eng-GB/Europe_s_Spaceport_in_French_Guiana_with_Vega-C_and_Ariane_6_launch_facilities_in_the_background_card_"
+          },
+          {
+            "title": "Ariane 6 and Vega-C over Earth (artist impression)",
+            "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Ariane_6_and_Vega-C_over_Earth_artist_impression",
+            "pubdate": "Mon, 09 Mar 2026 17:04:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/ariane_6_and_vega-c_over_earth_artist_impression/27146986-1-eng-GB/Ariane_6_and_Vega-C_over_Earth_artist_impression_card_full.jpg\" alt=\"Ariane 6 and Vega-C over Earth (artist impression)\">\n\tImage:\n\t\t\tAriane 6 and Vega"
+          },
+          {
+            "title": "Preparing first Ariane 6 with four boosters and liftoff",
+            "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Preparing_first_Ariane_6_with_four_boosters_and_liftoff",
+            "pubdate": "Thu, 05 Mar 2026 16:00:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/03/preparing_first_ariane_6_with_four_boosters_and_liftoff/27139052-1-eng-GB/Preparing_first_Ariane_6_with_four_boosters_and_liftoff_card_full.png\" alt=\"\">\n\tVideo: \n\t\t\t00:04:20\n\t\t\t\t<p>Timelapse showing the steps to build"
+          },
+          {
+            "title": "Highlights of first launch of Ariane 6 with four boosters",
+            "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Highlights_of_first_launch_of_Ariane_6_with_four_boosters",
+            "pubdate": "Thu, 12 Feb 2026 21:30:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/02/highlights_of_first_launch_of_ariane_6_with_four_boosters/27107486-1-eng-GB/Highlights_of_first_launch_of_Ariane_6_with_four_boosters_card_full.png\" alt=\"\">\n\tVideo: \n\t\t\t00:02:07\n\t\t\t\t<p>At 16:45 GMT/17:45 CET the first"
+          },
+          {
+            "title": "Ariane 6 first launch with four boosters: the complete broadcast",
+            "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Ariane_6_first_launch_with_four_boosters_the_complete_broadcast",
+            "pubdate": "Thu, 12 Feb 2026 20:15:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/02/ariane_6_first_launch_with_four_boosters_the_complete_broadcast/27107277-1-eng-GB/Ariane_6_first_launch_with_four_boosters_the_complete_broadcast_card_full.jpg\" alt=\"\">\n\tVideo: \n\t\t\t02:47:47\n\t\t\t\t<p>Watch the broadcast "
+          },
+          {
+            "title": "Liftoff power: launch of first Ariane 6 with four boosters",
+            "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Liftoff_power_launch_of_first_Ariane_6_with_four_boosters",
+            "pubdate": "Thu, 12 Feb 2026 18:00:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/02/liftoff_power_launch_of_first_ariane_6_with_four_boosters/27106634-4-eng-GB/Liftoff_power_launch_of_first_Ariane_6_with_four_boosters_card_full.jpg\" alt=\"\">\n\tVideo: \n\t\t\t00:04:18\n\t\t\t\t<p>At 16:45 GMT/17:45 CET&nbsp;the "
+          },
+          {
+            "title": "Vega-C overview infographic",
+            "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Vega-C_overview_infographic",
+            "pubdate": "Mon, 19 Jan 2026 14:35:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/01/vega-c_overview_infographic/27070971-1-eng-GB/Vega-C_overview_infographic_card_full.png\" alt=\"Vega-C overview infographic\">\n\tImage:\n\t\t\tVega-C overview infographic"
+          },
+          {
+            "title": "Astris infographic",
+            "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Astris_infographic",
+            "pubdate": "Mon, 12 Jan 2026 13:17:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/01/astris_infographic/27061263-1-eng-GB/Astris_infographic_card_full.png\" alt=\"Astris infographic\">\n\tImage:\n\t\t\tAstris infographic"
+          },
+          {
+            "title": "Galileo launch history",
+            "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Galileo_launch_history",
+            "pubdate": "Mon, 08 Dec 2025 14:36:00 +0100",
+            "description": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/12/galileo_launch_history/27012758-8-eng-GB/Galileo_launch_history_card_full.png\" alt=\"Galileo launch history\">\n\tImage:\n\t\t\tGalileo launch history"
+          }
+        ]
+      },
+      "spacex_manifests": {
+        "url": "https://www.spacex.com/launches/",
+        "type": "webpage",
+        "status": "fetched",
+        "content_length": 3077
+      }
+    }
+  },
+  "countries": [
+    {
+      "id": "USA",
+      "iso3": "USA",
+      "flag": "🇺🇸",
+      "color": "#3b82f6",
+      "label": "United States"
+    },
+    {
+      "id": "China",
+      "iso3": "CHN",
+      "flag": "🇨🇳",
+      "color": "#ef4444",
+      "label": "China"
+    },
+    {
+      "id": "Russia",
+      "iso3": "RUS",
+      "flag": "🇷🇺",
+      "color": "#f97316",
+      "label": "Russia"
+    },
+    {
+      "id": "India",
+      "iso3": "IND",
+      "flag": "🇮🇳",
+      "color": "#22c55e",
+      "label": "India"
+    },
+    {
+      "id": "Europe",
+      "iso3": "FRA",
+      "flag": "🇪🇺",
+      "color": "#a855f7",
+      "label": "Europe (ESA/Ariane)"
+    },
+    {
+      "id": "Japan",
+      "iso3": "JPN",
+      "flag": "🇯🇵",
+      "color": "#ec4899",
+      "label": "Japan"
+    },
+    {
+      "id": "New Zealand",
+      "iso3": "NZL",
+      "flag": "🇳🇿",
+      "color": "#f59e0b",
+      "label": "New Zealand (RocketLab)"
+    },
+    {
+      "id": "South Korea",
+      "iso3": "KOR",
+      "flag": "🇰🇷",
+      "color": "#06b6d4",
+      "label": "South Korea"
+    },
+    {
+      "id": "Others",
+      "iso3": null,
+      "flag": "🌐",
+      "color": "#6b7280",
+      "label": "Others (Iran, DPRK, etc.)"
+    }
+  ],
+  "launches": {
+    "2023": {
+      "status": "actual",
+      "actual_months": 12,
+      "total": 98,
+      "countries": {
+        "USA": [
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "China": [
+          33,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Russia": [
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "India": [
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Europe": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Japan": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "New Zealand": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "South Korea": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Others": [
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rich": {
+        "USA": {
+          "monthly": [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 14,
+          "rocket_families": {
+            "Atlas V": 3,
+            "Antares": 2,
+            "Delta IV": 2,
+            "Falcon 9": 2,
+            "Starship": 2,
+            "Terran": 2,
+            "Falcon Heavy": 1
+          },
+          "orbit_types": {
+            "LEO": 14
+          },
+          "payload_types": {
+            "Unknown": 14
+          },
+          "operator_types": {
+            "Commercial": 14
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "China": {
+          "monthly": [
+            33,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 33,
+          "rocket_families": {
+            "Long March 2": 6,
+            "Zhuque": 4,
+            "Ceres": 3,
+            "Long March 6": 3,
+            "Long March 7": 3,
+            "Hyperbola": 2,
+            "Jielong": 2,
+            "Kuaizhou": 2,
+            "Long March 5": 2,
+            "Long March 11": 2,
+            "Long March 3": 2,
+            "Long March 4": 2
+          },
+          "orbit_types": {
+            "LEO": 33
+          },
+          "payload_types": {
+            "Unknown": 33
+          },
+          "operator_types": {
+            "Government": 22,
+            "Commercial": 11
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            33,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Russia": {
+          "monthly": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 9,
+          "rocket_families": {
+            "Soyuz-2": 6,
+            "Proton": 3
+          },
+          "orbit_types": {
+            "LEO": 9
+          },
+          "payload_types": {
+            "Unknown": 9
+          },
+          "operator_types": {
+            "Government": 9
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "India": {
+          "monthly": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 9,
+          "rocket_families": {
+            "PSLV": 3,
+            "GSLV": 2,
+            "LVM3": 2,
+            "SSLV": 2
+          },
+          "orbit_types": {
+            "LEO": 9
+          },
+          "payload_types": {
+            "Unknown": 9
+          },
+          "operator_types": {
+            "Government": 9
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Europe": {
+          "monthly": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 4,
+          "rocket_families": {
+            "Ariane 5": 2,
+            "Vega": 2
+          },
+          "orbit_types": {
+            "LEO": 4
+          },
+          "payload_types": {
+            "Unknown": 4
+          },
+          "operator_types": {
+            "Commercial": 4
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Japan": {
+          "monthly": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 4,
+          "rocket_families": {
+            "H-IIA": 2,
+            "H3": 2
+          },
+          "orbit_types": {
+            "LEO": 4
+          },
+          "payload_types": {
+            "Unknown": 4
+          },
+          "operator_types": {
+            "Government": 4
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "New Zealand": {
+          "monthly": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 2,
+          "rocket_families": {
+            "Electron": 2
+          },
+          "orbit_types": {
+            "LEO": 2
+          },
+          "payload_types": {
+            "Unknown": 2
+          },
+          "operator_types": {
+            "Commercial": 2
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "South Korea": {
+          "monthly": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 2,
+          "rocket_families": {
+            "Nuri": 2
+          },
+          "orbit_types": {
+            "LEO": 2
+          },
+          "payload_types": {
+            "Unknown": 2
+          },
+          "operator_types": {
+            "Government": 2
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Others": {
+          "monthly": [
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "rocket_families": {
+            "Unknown": 15,
+            "Qaem": 4,
+            "Shavit": 2
+          },
+          "orbit_types": {
+            "LEO": 21
+          },
+          "payload_types": {
+            "Unknown": 21
+          },
+          "operator_types": {
+            "Commercial": 15,
+            "Government": 6
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "2024": {
+      "status": "actual",
+      "actual_months": 12,
+      "total": 120,
+      "countries": {
+        "USA": [
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "China": [
+          42,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Russia": [
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "India": [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Europe": [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Japan": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "New Zealand": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "South Korea": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Others": [
+          30,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rich": {
+        "USA": {
+          "monthly": [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 14,
+          "rocket_families": {
+            "Starship": 3,
+            "Atlas V": 3,
+            "Vulcan": 3,
+            "Delta IV": 2,
+            "Falcon 9": 2,
+            "Falcon Heavy": 1
+          },
+          "orbit_types": {
+            "LEO": 14
+          },
+          "payload_types": {
+            "Unknown": 14
+          },
+          "operator_types": {
+            "Commercial": 14
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "China": {
+          "monthly": [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 42,
+          "rocket_families": {
+            "Kuaizhou": 6,
+            "Long March 6": 5,
+            "Long March 2": 5,
+            "Long March 5": 4,
+            "Ceres": 3,
+            "Gravity": 3,
+            "Long March 7": 3,
+            "Zhuque": 3,
+            "Hyperbola": 2,
+            "Jielong": 2,
+            "Long March 8": 2,
+            "Long March 3": 2,
+            "Long March 4": 2
+          },
+          "orbit_types": {
+            "LEO": 42
+          },
+          "payload_types": {
+            "Unknown": 42
+          },
+          "operator_types": {
+            "Government": 25,
+            "Commercial": 17
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Russia": {
+          "monthly": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 11,
+          "rocket_families": {
+            "Soyuz-2": 6,
+            "Angara": 5
+          },
+          "orbit_types": {
+            "LEO": 11
+          },
+          "payload_types": {
+            "Unknown": 11
+          },
+          "operator_types": {
+            "Government": 11
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "India": {
+          "monthly": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 8,
+          "rocket_families": {
+            "PSLV": 4,
+            "GSLV": 2,
+            "SSLV": 2
+          },
+          "orbit_types": {
+            "LEO": 8
+          },
+          "payload_types": {
+            "Unknown": 8
+          },
+          "operator_types": {
+            "Government": 8
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Europe": {
+          "monthly": [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 7,
+          "rocket_families": {
+            "Vega": 4,
+            "Ariane 6": 3
+          },
+          "orbit_types": {
+            "LEO": 7
+          },
+          "payload_types": {
+            "Unknown": 7
+          },
+          "operator_types": {
+            "Commercial": 7
+          },
+          "success_rate": 85.7,
+          "monthly_satellites": [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Japan": {
+          "monthly": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 4,
+          "rocket_families": {
+            "H-IIA": 2,
+            "H3": 2
+          },
+          "orbit_types": {
+            "LEO": 4
+          },
+          "payload_types": {
+            "Unknown": 4
+          },
+          "operator_types": {
+            "Government": 4
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "New Zealand": {
+          "monthly": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 3,
+          "rocket_families": {
+            "Electron": 3
+          },
+          "orbit_types": {
+            "LEO": 3
+          },
+          "payload_types": {
+            "Unknown": 2,
+            "Crewed": 1
+          },
+          "operator_types": {
+            "Commercial": 3
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "South Korea": {
+          "monthly": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 0,
+          "rocket_families": {},
+          "orbit_types": {},
+          "payload_types": {},
+          "operator_types": {},
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Others": {
+          "monthly": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 31,
+          "rocket_families": {
+            "Unknown": 26,
+            "Simorgh": 3,
+            "Qaem": 2
+          },
+          "orbit_types": {
+            "LEO": 31
+          },
+          "payload_types": {
+            "Unknown": 29,
+            "Crewed": 2
+          },
+          "operator_types": {
+            "Commercial": 26,
+            "Government": 5
+          },
+          "success_rate": 93.5,
+          "monthly_satellites": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "2025": {
+      "status": "actual",
+      "actual_months": 12,
+      "total": 111,
+      "countries": {
+        "USA": [
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "China": [
+          41,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Russia": [
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "India": [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Europe": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Japan": [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "New Zealand": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "South Korea": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Others": [
+          26,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rich": {
+        "USA": {
+          "monthly": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "rocket_families": {
+            "New Glenn": 3,
+            "Starship": 3,
+            "Vulcan": 3,
+            "Atlas V": 2,
+            "Falcon 9": 2,
+            "Minotaur": 2
+          },
+          "orbit_types": {
+            "LEO": 15
+          },
+          "payload_types": {
+            "Unknown": 15
+          },
+          "operator_types": {
+            "Commercial": 15
+          },
+          "success_rate": 93.3,
+          "monthly_satellites": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "China": {
+          "monthly": [
+            41,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 41,
+          "rocket_families": {
+            "Kuaizhou": 5,
+            "Zhuque": 5,
+            "Long March 8": 4,
+            "Long March 2": 4,
+            "Ceres": 3,
+            "Long March 5": 3,
+            "Long March 6": 3,
+            "Long March 7": 3,
+            "Gravity": 2,
+            "Hyperbola": 2,
+            "Jielong": 2,
+            "Long March 11": 2,
+            "Long March 4": 2,
+            "Long March 3": 1
+          },
+          "orbit_types": {
+            "LEO": 41
+          },
+          "payload_types": {
+            "Unknown": 41
+          },
+          "operator_types": {
+            "Government": 24,
+            "Commercial": 17
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            41,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Russia": {
+          "monthly": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 9,
+          "rocket_families": {
+            "Soyuz-2": 5,
+            "Angara": 4
+          },
+          "orbit_types": {
+            "LEO": 9
+          },
+          "payload_types": {
+            "Unknown": 9
+          },
+          "operator_types": {
+            "Government": 9
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "India": {
+          "monthly": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 6,
+          "rocket_families": {
+            "GSLV": 2,
+            "LVM3": 2,
+            "PSLV": 2
+          },
+          "orbit_types": {
+            "LEO": 6
+          },
+          "payload_types": {
+            "Unknown": 6
+          },
+          "operator_types": {
+            "Government": 6
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Europe": {
+          "monthly": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 4,
+          "rocket_families": {
+            "Ariane 6": 2,
+            "Vega": 2
+          },
+          "orbit_types": {
+            "LEO": 4
+          },
+          "payload_types": {
+            "Unknown": 4
+          },
+          "operator_types": {
+            "Commercial": 4
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Japan": {
+          "monthly": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 6,
+          "rocket_families": {
+            "H3": 4,
+            "H-IIA": 2
+          },
+          "orbit_types": {
+            "LEO": 6
+          },
+          "payload_types": {
+            "Unknown": 6
+          },
+          "operator_types": {
+            "Government": 6
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "New Zealand": {
+          "monthly": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 2,
+          "rocket_families": {
+            "Electron": 2
+          },
+          "orbit_types": {
+            "LEO": 2
+          },
+          "payload_types": {
+            "Unknown": 2
+          },
+          "operator_types": {
+            "Commercial": 2
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "South Korea": {
+          "monthly": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 2,
+          "rocket_families": {
+            "Nuri": 2
+          },
+          "orbit_types": {
+            "LEO": 2
+          },
+          "payload_types": {
+            "Unknown": 2
+          },
+          "operator_types": {
+            "Government": 2
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Others": {
+          "monthly": [
+            26,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 26,
+          "rocket_families": {
+            "Unknown": 24,
+            "Shavit": 2
+          },
+          "orbit_types": {
+            "LEO": 26
+          },
+          "payload_types": {
+            "Unknown": 26
+          },
+          "operator_types": {
+            "Commercial": 24,
+            "Government": 2
+          },
+          "success_rate": 88.5,
+          "monthly_satellites": [
+            26,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "2026": {
+      "status": "partial",
+      "actual_months": 4,
+      "total": 84,
+      "countries": {
+        "USA": [
+          11,
+          0,
+          0,
+          0,
+          13,
+          14,
+          15,
+          15,
+          14,
+          14,
+          13,
+          13
+        ],
+        "China": [
+          19,
+          0,
+          0,
+          0,
+          6,
+          7,
+          7,
+          7,
+          6,
+          6,
+          7,
+          6
+        ],
+        "Russia": [
+          7,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "India": [
+          3,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "Europe": [
+          3,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Japan": [
+          2,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "New Zealand": [
+          2,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "South Korea": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "Others": [
+          37,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "rich": {
+        "USA": {
+          "monthly": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 11,
+          "rocket_families": {
+            "Atlas V": 2,
+            "Falcon 9": 2,
+            "Minotaur": 2,
+            "Vulcan": 2,
+            "Starship": 1,
+            "Antares": 1,
+            "Terran R": 1
+          },
+          "orbit_types": {
+            "LEO": 11
+          },
+          "payload_types": {
+            "Unknown": 11
+          },
+          "operator_types": {
+            "Commercial": 11
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "China": {
+          "monthly": [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 19,
+          "rocket_families": {
+            "Long March 2": 4,
+            "Long March 8": 3,
+            "Zhuque": 3,
+            "Ceres": 2,
+            "Jielong": 2,
+            "Kuaizhou": 2,
+            "Long March 6": 2,
+            "Long March 3": 1
+          },
+          "orbit_types": {
+            "LEO": 19
+          },
+          "payload_types": {
+            "Unknown": 19
+          },
+          "operator_types": {
+            "Government": 12,
+            "Commercial": 7
+          },
+          "success_rate": 94.7,
+          "monthly_satellites": [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Russia": {
+          "monthly": [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 7,
+          "rocket_families": {
+            "Soyuz-2": 4,
+            "Proton": 2,
+            "Soyuz": 1
+          },
+          "orbit_types": {
+            "LEO": 7
+          },
+          "payload_types": {
+            "Unknown": 7
+          },
+          "operator_types": {
+            "Government": 7
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "India": {
+          "monthly": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 3,
+          "rocket_families": {
+            "PSLV": 2,
+            "LVM3": 1
+          },
+          "orbit_types": {
+            "LEO": 3
+          },
+          "payload_types": {
+            "Unknown": 3
+          },
+          "operator_types": {
+            "Government": 3
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Europe": {
+          "monthly": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 3,
+          "rocket_families": {
+            "Ariane 6": 3
+          },
+          "orbit_types": {
+            "LEO": 3
+          },
+          "payload_types": {
+            "Unknown": 3
+          },
+          "operator_types": {
+            "Commercial": 3
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Japan": {
+          "monthly": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 2,
+          "rocket_families": {
+            "H3": 1,
+            "Epsilon": 1
+          },
+          "orbit_types": {
+            "LEO": 2
+          },
+          "payload_types": {
+            "Unknown": 2
+          },
+          "operator_types": {
+            "Government": 2
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "New Zealand": {
+          "monthly": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 2,
+          "rocket_families": {
+            "Electron": 2
+          },
+          "orbit_types": {
+            "LEO": 2
+          },
+          "payload_types": {
+            "Unknown": 2
+          },
+          "operator_types": {
+            "Commercial": 2
+          },
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "South Korea": {
+          "monthly": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 0,
+          "rocket_families": {},
+          "orbit_types": {},
+          "payload_types": {},
+          "operator_types": {},
+          "success_rate": 100.0,
+          "monthly_satellites": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "Others": {
+          "monthly": [
+            37,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 37,
+          "rocket_families": {
+            "Unknown": 37
+          },
+          "orbit_types": {
+            "LEO": 37
+          },
+          "payload_types": {
+            "Unknown": 37
+          },
+          "operator_types": {
+            "Commercial": 37
+          },
+          "success_rate": 97.3,
+          "monthly_satellites": [
+            37,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "note": "Months 1-4 are actual; months 5-12 are predicted"
+    }
+  },
+  "q4_2026_prediction": {
+    "method": "linear_trend_q4",
+    "basis_years": [
+      2023,
+      2024,
+      2025
+    ],
+    "description": "Q4 (Oct-Dec) 2026 orbital launch prediction based on linear trend from prior years",
+    "total_predicted": 0,
+    "total_low": 0,
+    "total_high": 0,
+    "confidence": "±15%",
+    "countries": {
+      "USA": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "China": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "Russia": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "India": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "Europe": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "Japan": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "New Zealand": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "South Korea": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      },
+      "Others": {
+        "predicted": 0,
+        "low": 0,
+        "high": 0,
+        "historical": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "trend": "linear regression on Q4 totals",
+        "confidence": "±15%"
+      }
+    }
+  }
+}

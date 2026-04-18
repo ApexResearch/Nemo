@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🚀 Space Launch Statistics 2023–2026</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+
+  <!-- ── Header ── -->
+  <header>
+    <div class="header-left">
+      <h1>🚀 Space Launch Statistics</h1>
+      <p>Global orbital launches by country · 2023–2026 · Auto-updating</p>
+    </div>
+    <div class="header-right">
+      <div class="refresh-badge">
+        <div class="pulse-dot"></div>
+        <span>Live refresh every 30s</span>
+      </div>
+      <div id="last-updated"></div>
+    </div>
+  </header>
+
+  <!-- ── Year Selector ── -->
+  <div id="year-tabs" class="year-tabs"></div>
+
+  <!-- ── Summary Cards ── -->
+  <div class="stats-row">
+    <div class="stat-card" id="card-total">
+      <div class="label">Total Launches</div>
+      <div class="value">—</div>
+      <div class="sub">loading…</div>
+      <span class="change" style="display:none"></span>
+    </div>
+    <div class="stat-card" id="card-top">
+      <div class="label">Top Launch Nation</div>
+      <div class="value">—</div>
+      <div class="sub">loading…</div>
+      <span class="change" style="display:none"></span>
+    </div>
+    <div class="stat-card" id="card-peak">
+      <div class="label">Peak Month</div>
+      <div class="value">—</div>
+      <div class="sub">loading…</div>
+      <span class="change" style="display:none"></span>
+    </div>
+    <div class="stat-card" id="card-countries">
+      <div class="label">Active Nations</div>
+      <div class="value">—</div>
+      <div class="sub">loading…</div>
+      <span class="change" style="display:none"></span>
+    </div>
+  </div>
+
+  <!-- ── Country Filter ── -->
+  <div class="chart-card" style="margin-bottom:16px; padding: 12px 16px;">
+    <h3>Filter by Country</h3>
+    <div class="chart-sub">Click to toggle. Affects monthly, trend and heatmap charts.</div>
+    <div id="country-chips" class="country-filters"></div>
+  </div>
+
+  <!-- ── Map + Pie ── -->
+  <div class="chart-grid-2">
+    <div class="chart-card">
+      <h3>🌍 Launches by Country — World Map</h3>
+      <div class="chart-sub">Choropleth showing cumulative launches for selected year</div>
+      <div id="chart-map" class="plotly-chart" style="height:320px;"></div>
+    </div>
+    <div class="chart-card">
+      <h3>🥧 Market Share by Country</h3>
+      <div class="chart-sub">Proportional breakdown for selected year</div>
+      <div id="chart-pie" class="plotly-chart" style="height:320px;"></div>
+    </div>
+  </div>
+
+  <!-- ── Monthly Bar ── -->
+  <div class="chart-card wide" style="margin-bottom:16px;">
+    <h3>📅 Monthly Launch Activity — Selected Year</h3>
+    <div class="chart-sub">Stacked bar chart showing each country's monthly contributions. For 2026: solid = actual, faded/hatched = predicted.</div>
+    <div class="legend-row" id="2026-legend" style="display:none;">
+      <div class="legend-item"><div class="legend-swatch actual"></div> Actual (Jan–Apr)</div>
+      <div class="legend-item"><div class="legend-swatch predicted"></div> Predicted (May–Dec)</div>
+    </div>
+    <div id="chart-monthly" class="plotly-chart" style="height:340px;"></div>
+  </div>
+
+  <!-- ── Trends + Heatmap ── -->
+  <div class="chart-grid-2" style="margin-bottom:16px;">
+    <div class="chart-card">
+      <h3>📈 Country Launch Trends 2023–2026</h3>
+      <div class="chart-sub">Year-over-year trajectory per nation. Dashed white = global total.</div>
+      <div id="chart-trends" class="plotly-chart" style="height:320px;"></div>
+    </div>
+    <div class="chart-card">
+      <h3>🌡 Seasonal Heatmap — Month × Year</h3>
+      <div class="chart-sub">Total launches per month/year across all nations. Reveals seasonal cycles.</div>
+      <div id="chart-heatmap" class="plotly-chart" style="height:320px;"></div>
+    </div>
+  </div>
+
+  <!-- ── 2026 Tracker ── -->
+  <div class="chart-card wide">
+    <h3>🛸 2026 Launch Tracker — Actual vs Predicted</h3>
+    <div class="chart-sub">
+      Blue bars = confirmed launches (Jan–Apr 2026). Purple bars = model-predicted (May–Dec).
+      Dashed amber line = 2025 monthly totals for reference.
+    </div>
+    <div id="chart-2026" class="plotly-chart" style="height:320px;"></div>
+  </div>
+
+  <!-- ── Sources ── -->
+  <div class="sources-row">
+    <span>Data sources:</span>
+    NextSpaceflight ·
+    Jonathan's Space Report ·
+    Gunter's Space Page ·
+    <span>2026 predictions based on operator manifest + historical trends</span>
+    &nbsp;|&nbsp; Auto-refreshes when <code>data/launches.json</code> changes
+  </div>
+
+</div>
+
+<!-- ── Toast ── -->
+<div id="toast"></div>
+
+<script src="/static/js/dashboard.js"></script>
+<script>
+  // Show 2026 legend only when year tab is 2026
+  const origBuildYearTabs = window.buildYearTabs;
+  document.addEventListener('DOMContentLoaded', () => {
+    const legend = document.getElementById('2026-legend');
+    const observer = new MutationObserver(() => {
+      const active = document.querySelector('.year-btn.active');
+      if (legend) legend.style.display = (active?.textContent?.includes('2026')) ? 'flex' : 'none';
+    });
+    observer.observe(document.getElementById('year-tabs'), { childList: true, subtree: true });
+  });
+</script>
+</body>
+</html>
